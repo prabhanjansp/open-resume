@@ -28,7 +28,7 @@ const RESUME_EXAMPLES = [
     fileUrl: "resume-example/openresume-resume.pdf",
     description: (
       <span>
-        Created with OpenResume resume builder -{" "}
+        Created with Sconti resume builder -{" "}
         <Link href="/resume-builder">Link</Link>
       </span>
     ),
@@ -73,7 +73,7 @@ export default function ResumeParser() {
               ability to parse information from a resume PDF. Click around the
               PDF examples below to observe different parsing results.
             </Paragraph>
-            <div className="mt-3 flex gap-3">
+            {/* <div className="mt-3 flex gap-3">
               {RESUME_EXAMPLES.map((example, idx) => (
                 <article
                   key={idx}
@@ -96,7 +96,7 @@ export default function ResumeParser() {
                   </p>
                 </article>
               ))}
-            </div>
+            </div> */}
             <Paragraph>
               You can also{" "}
               <span className="font-semibold">add your resume below</span> to
@@ -114,7 +114,7 @@ export default function ResumeParser() {
                 playgroundView={true}
               />
             </div>
-            <Heading level={2} className="!mt-[1.2em]">
+            {/* <Heading level={2} className="!mt-[1.2em]">
               Resume Parsing Results
             </Heading>
             <ResumeTable resume={resume} />
@@ -122,7 +122,7 @@ export default function ResumeParser() {
               textItems={textItems}
               lines={lines}
               sections={sections}
-            />
+            /> */}
             <div className="pt-24" />
           </section>
         </div>
