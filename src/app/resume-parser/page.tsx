@@ -69,7 +69,7 @@ export default function ResumeParser() {
               Resume Parser Playground
             </Heading>
             <Paragraph smallMarginTop={true}>
-              This playground showcases the OpenResume resume parser and its
+              This playground showcases the ScontiResume resume parser and its
               ability to parse information from a resume PDF. Click around the
               PDF examples below to observe different parsing results.
             </Paragraph>
@@ -114,7 +114,7 @@ export default function ResumeParser() {
                 playgroundView={true}
               />
             </div>
-            {/* <Heading level={2} className="!mt-[1.2em]">
+            <Heading level={2} className="!mt-[1.2em]">
               Resume Parsing Results
             </Heading>
             <ResumeTable resume={resume} />
@@ -122,7 +122,7 @@ export default function ResumeParser() {
               textItems={textItems}
               lines={lines}
               sections={sections}
-            /> */}
+            />
             <div className="pt-24" />
           </section>
         </div>
